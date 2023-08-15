@@ -839,12 +839,10 @@ const NavbarStyleFive = () => {
               </div>
 
               {/* Others option */}
-              <div className="others-option">
+              <div className="others-option" style={{display:'flex', gap:"8px"}}>
                 <Link href="/contact/" className="btn btn-gradient">
                   Contact Us
                 </Link>
-              </div>
-              <div className="others-option">
                 <Link href="/contact/" className="btn btn-gradient">
                   Portfolio
                 </Link>

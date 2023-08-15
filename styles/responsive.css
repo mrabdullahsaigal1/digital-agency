@@ -73,7 +73,16 @@
     display: block;
     position: relative;
   }
-  .shape1, .shape2, .shape3, .shape4, .shape5, .shape6, .shape7, .shape8, .shape9, .shape10 {
+  .shape1,
+  .shape2,
+  .shape3,
+  .shape4,
+  .shape5,
+  .shape6,
+  .shape7,
+  .shape8,
+  .shape9,
+  .shape10 {
     display: none;
   }
   .boxes-area {
@@ -317,19 +326,22 @@
   .feedback-slides .client-thumbnails .prev-arrow {
     left: 0;
   }
-  .feedback-slides .client-thumbnails .next-arrow, .feedback-slides .client-thumbnails .prev-arrow {
+  .feedback-slides .client-thumbnails .next-arrow,
+  .feedback-slides .client-thumbnails .prev-arrow {
     background: rgba(0, 0, 0, 0.55);
     color: #ffffff;
     border: none;
   }
-  .testimonials-slides-box::before, .testimonials-slides-box::after {
+  .testimonials-slides-box::before,
+  .testimonials-slides-box::after {
     display: none;
   }
   .testimonials-slides {
     max-width: 100%;
     margin: 0;
   }
-  .testimonials-slides::before, .testimonials-slides::after {
+  .testimonials-slides::before,
+  .testimonials-slides::after {
     display: none;
   }
   .testimonials-slides .client-info .image {
@@ -433,11 +445,14 @@
   .pagination-area {
     margin-top: 15px;
   }
-  .blog-details-desc .article-content h1, .blog-details-desc .article-content h2, .blog-details-desc .article-content h3 {
+  .blog-details-desc .article-content h1,
+  .blog-details-desc .article-content h2,
+  .blog-details-desc .article-content h3 {
     font-size: 20px;
     line-height: 1.4;
   }
-  .blog-details-desc .article-content h4, .blog-details-desc .article-content h5 {
+  .blog-details-desc .article-content h4,
+  .blog-details-desc .article-content h5 {
     font-size: 18px;
     line-height: 1.4;
   }
@@ -447,10 +462,12 @@
   .blog-details-desc .article-footer .article-tags a {
     margin-top: 5px;
   }
-  blockquote, .blockquote {
+  blockquote,
+  .blockquote {
     padding: 20px !important;
   }
-  blockquote p, .blockquote p {
+  blockquote p,
+  .blockquote p {
     font-size: 16px !important;
   }
   .comments-area .comments-title {
@@ -532,7 +549,8 @@
     width: 130px;
     font-size: 14px;
     margin-top: 18px;
-    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.1), 0 0 0 4px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.1),
+      0 0 0 4px rgba(255, 255, 255, 0.3);
   }
   .coming-soon-content #timer div {
     width: 100px;
@@ -751,7 +769,8 @@
     width: 250px;
     position: relative;
   }
-  .repair-about-image img:nth-child(4), .repair-about-image img:nth-child(5) {
+  .repair-about-image img:nth-child(4),
+  .repair-about-image img:nth-child(5) {
     display: none;
   }
   .repair-services-area {
@@ -1192,7 +1211,12 @@
   .agency-services-box:hover .content .read-more-btn {
     display: none;
   }
-  .user-shape1, .user-shape2, .user-shape3, .user-shape4, .user-shape5, .user-shape6 {
+  .user-shape1,
+  .user-shape2,
+  .user-shape3,
+  .user-shape4,
+  .user-shape5,
+  .user-shape6 {
     display: none;
   }
   .single-testimonials-item {
@@ -1560,16 +1584,19 @@
     width: 90%;
     border: 1px solid #f3f3f3;
   }
+
   .startp-nav nav .others-option {
     position: absolute;
     right: 45px;
     top: 9px;
+    
   }
   .startp-nav nav .others-option .btn.btn-light {
     border: 1px dashed #cdf1d8;
     display: none;
   }
-  .startp-nav nav .others-option .btn.btn-light, .startp-nav nav .others-option .btn {
+  .startp-nav nav .others-option .btn.btn-light,
+  .startp-nav nav .others-option .btn {
     padding: 6px 12px;
     margin-right: 5px;
     font-size: 10px;
@@ -1604,13 +1631,15 @@
   #header.headroom.navbar-style-four .navbar-toggler .icon-bar {
     background: #ffffff;
   }
-  .agency-portfolio-home-slides .swiper-button-next, .agency-portfolio-home-slides .swiper-button-prev {
+  .agency-portfolio-home-slides .swiper-button-next,
+  .agency-portfolio-home-slides .swiper-button-prev {
     width: 35px;
     height: 35px;
     top: auto;
     bottom: 30px;
   }
-  .agency-portfolio-home-slides .swiper-button-next:after, .agency-portfolio-home-slides .swiper-button-prev:after {
+  .agency-portfolio-home-slides .swiper-button-next:after,
+  .agency-portfolio-home-slides .swiper-button-prev:after {
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -1619,6 +1648,12 @@
 }
 /* Min width 576px to Max width 767px */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  .others-option {
+    position: absolute;
+    right: 48px;
+    display: flex;
+    top: 9px;
+  }
   .startp-nav nav .others-option .btn.btn-light {
     display: inline-block;
   }
@@ -1747,7 +1782,12 @@
     left: 0;
     margin: 0 auto;
   }
-  .shape1, .shape2, .shape3, .shape4, .shape5, .shape7 {
+  .shape1,
+  .shape2,
+  .shape3,
+  .shape4,
+  .shape5,
+  .shape7 {
     display: none;
   }
   .section-title h2 {
@@ -1929,7 +1969,8 @@
   .repair-about-image img:nth-child(2) {
     position: relative;
   }
-  .repair-about-image img:nth-child(4), .repair-about-image img:nth-child(5) {
+  .repair-about-image img:nth-child(4),
+  .repair-about-image img:nth-child(5) {
     display: none;
   }
   .repair-cta-area {
@@ -2135,7 +2176,12 @@
   .shape9 {
     display: none;
   }
-  .user-shape1, .user-shape2, .user-shape3, .user-shape4, .user-shape5, .user-shape6 {
+  .user-shape1,
+  .user-shape2,
+  .user-shape3,
+  .user-shape4,
+  .user-shape5,
+  .user-shape6 {
     display: none;
   }
   .agency-portfolio-main-banner {
@@ -2254,7 +2300,8 @@
     border: 1px dashed #cdf1d8;
     display: none;
   }
-  .startp-nav nav .others-option .btn.btn-light, .startp-nav nav .others-option .btn {
+  .startp-nav nav .others-option .btn.btn-light,
+  .startp-nav nav .others-option .btn {
     padding: 6px 12px;
     margin-right: 5px;
     font-size: 10px;
@@ -2265,7 +2312,8 @@
   .iot-banner-content {
     max-width: 100%;
   }
-  .testimonials-slides-box::before, .testimonials-slides-box::after {
+  .testimonials-slides-box::before,
+  .testimonials-slides-box::after {
     display: none;
   }
 }
@@ -2468,7 +2516,8 @@
   .newsletter-content {
     max-width: 465px;
   }
-  .startp-nav nav .others-option .btn.btn-light, .startp-nav nav .others-option .btn {
+  .startp-nav nav .others-option .btn.btn-light,
+  .startp-nav nav .others-option .btn {
     padding: 8px 20px;
     font-size: 13px;
   }
@@ -2533,4 +2582,4 @@
   .container {
     max-width: 1250px;
   }
-}/*# sourceMappingURL=responsive.css.map */
+} /*# sourceMappingURL=responsive.css.map */
