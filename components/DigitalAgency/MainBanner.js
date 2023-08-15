@@ -11,7 +11,7 @@ const MainBanner = () => {
                             <div className="agency-banner-content">
                                 <span className="sub-title">We are creative</span>
                                 <h1>Innovative IT Solutions for a Digitally Progressive World</h1>
-                                <p style={""}>Fusing aesthetics and functionality through websites, mobile apps, games, and digital campaigns, powered by a dedicated team of skilled professionals.</p>
+                                <p>Fusing aesthetics and functionality through websites, mobile apps, games, and digital campaigns, powered by a dedicated team of skilled professionals.</p>
 
                                 <Link href="/contact" className="btn btn-secondary">
                                     Get Started

@@ -29,7 +29,7 @@ const DigitalAgency = () => {
 
             <Projects />
 
-            <PricingStyleThree />
+            {/* <PricingStyleThree /> */}
 
             <FeedbackStyleThree />
 

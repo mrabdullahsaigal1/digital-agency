@@ -9,7 +9,7 @@ const WhatWeOffer = () => {
                 <div className="container">
                     <div className="section-title">
                         <span className="sub-title">What We Offer</span>
-                        <h2>Our Featured Solutions</h2>
+                        <h2>Empowering Digital Success: Our Comprehensive Digital Solutions</h2>
                         <div className="bar"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
