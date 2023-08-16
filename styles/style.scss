@@ -88,7 +88,7 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
-$font-family: 'Poppins', sans-serif;
+$font-family: 'ComicSansMS3';
 $light-green-color: #44ce6f;
 $white-color: #ffffff;
 $black-color: #0e314c;
@@ -104,7 +104,7 @@ $transition: .5s;
 $font-size: 14px;
 
 body {
-    font-family: $font-family;
+    font-family:'ComicSansMS3';
     padding: 0;
     margin: 0;
     font-size: $font-size;
@@ -9786,3 +9786,7 @@ Go Top CSS
         }
     }
 }
+@font-face {
+    font-family: "ComicSansMS3";
+    src: url("../public/fonts/ComicSansMS3.ttf") format('truetype');
+    font-weight: 600; }

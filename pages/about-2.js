@@ -12,6 +12,7 @@ const About2 = () => {
         <>
                 <NavbarStyleFive />
 
+
             <PageBanner pageTitle="About Us" />
 
             <div className="about-area ptb-80">

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "@/components/_App/Navbar";
+import NavbarStyleFive from "@/components/_App/NavbarStyleFive";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
 import Link from 'next/link';
@@ -7,7 +7,8 @@ import Link from 'next/link';
 const Services2 = () => {
     return (
         <>
-            <Navbar />
+            <NavbarStyleFive />
+
 
             <PageBanner pageTitle="Services Style Two" />
 

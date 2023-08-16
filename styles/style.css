@@ -88,7 +88,7 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family:'ComicSansMS3';
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -8551,3 +8551,7 @@ Go Top CSS
 .lang-didebar a:last-child {
   background-color: #483e3e;
 }/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "ComicSansMS3";
+  src: url("../public/fonts/ComicSansMS3.ttf") format('truetype');
+  font-weight: 600; }
