@@ -60,7 +60,7 @@ const FeedbackStyleThree = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <p>
-                  Keycode Syntax has taken our digital marketing efforts to new
+                  Keycode Syntax has taken our SEO & Content efforts to new
                   heights. Their data-driven approach has provided us with
                   valuable insights, leading to more effective campaigns and
                   increased ROI. They have truly become an extension of our own

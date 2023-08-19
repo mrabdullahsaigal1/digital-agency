@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "@/components/_App/Navbar";
+import NavbarStyleFive from "@/components/_App/NavbarStyleFive";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner'; 
 import ContactForm from './../components/FAQ/ContactForm';
@@ -14,8 +14,8 @@ import {
 const FAQ = () => {
     return (
         <>
-            <Navbar />
-
+        
+           <NavbarStyleFive/>
             <PageBanner pageTitle="FAQ" />
 
             <div className="faq-area ptb-80">

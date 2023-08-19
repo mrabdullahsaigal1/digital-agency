@@ -30,12 +30,12 @@ const AboutUsContent = () => {
                 </p>
                 <p>
                   Our extensive range of services encompasses web and app
-                  development, game creation, strategic digital marketing, and
+                  development, game creation, strategic SEO & Content, and
                   e-commerce solutions. Our seasoned team utilizes cutting-edge
                   technologies.
                 </p>
 
-                <Link href="/about" className="btn btn-secondary">
+                <Link href="/about-2" className="btn btn-secondary">
                   Discover More
                 </Link>
               </div>

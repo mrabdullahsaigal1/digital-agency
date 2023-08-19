@@ -41,7 +41,7 @@ const NavbarStyleFive = () => {
 
   return (
     <>
-      <header id="header" className="headroom navbar-style-three">
+      <header id="header" className="headroom navbar-style-three position-absolute">
         <div className="startp-nav">
           <div className="container-fluid">
             <nav className="navbar navbar-expand-md navbar-light">
@@ -247,10 +247,10 @@ const NavbarStyleFive = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/about-2/"
+                      href="/projects-2/"
                       onClick={toggleNavbar}
                       className={`nav-link ${
-                        currentPath == "/about-2/" && "active"
+                        currentPath == "/projects-2/" && "active"
                       }`}>
                       Project
                     </Link>
@@ -641,10 +641,10 @@ const NavbarStyleFive = () => {
                   </li> */}
                   <li className="nav-item">
                     <Link
-                      href="/about-2/"
+                      href="/feedback/"
                       onClick={toggleNavbar}
                       className={`nav-link ${
-                        currentPath == "/about-2/" && "active"
+                        currentPath == "/feedback/" && "active"
                       }`}>
                       Testimonials
                     </Link>
@@ -689,10 +689,10 @@ const NavbarStyleFive = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/about-2/"
+                      href="/faq/"
                       onClick={toggleNavbar}
                       className={`nav-link ${
-                        currentPath == "/about-2/" && "active"
+                        currentPath == "/faq/" && "active"
                       }`}>
                       FAQ
                     </Link>

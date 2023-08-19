@@ -15,13 +15,13 @@ const WhatWeOffer = () => {
             <div className="bar"></div>
             <p>
               Unlock your digital potential with our comprehensive web solutions
-              and strategic digital marketing, fueling growth and enhancing user
+              and strategic SEO & Content, fueling growth and enhancing user
               experiences.
             </p>
           </div>
 
           <div className="row">
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-landscape"></i>
@@ -45,7 +45,7 @@ const WhatWeOffer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-bar-chart-alt"></i>
@@ -56,7 +56,7 @@ const WhatWeOffer = () => {
                 </div>
 
                 <h3>
-                  <Link href="/service-details">Game Development</Link>
+                  <Link href="/service-details">Web & App Development</Link>
                 </h3>
                 <p>
                   Harnessing the power of Unity and Unreal Engine to design
@@ -69,7 +69,7 @@ const WhatWeOffer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-devices"></i>
@@ -95,7 +95,7 @@ const WhatWeOffer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-chalkboard"></i>
@@ -118,7 +118,7 @@ const WhatWeOffer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-bar-chart-alt"></i>
@@ -141,7 +141,7 @@ const WhatWeOffer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-bar-chart-alt"></i>
@@ -152,7 +152,7 @@ const WhatWeOffer = () => {
                 </div>
 
                 <h3>
-                  <Link href="/service-details">SEO & Content</Link>
+                  <Link href="/service-details">E-Commerce Solutions</Link>
                 </h3>
                 <p>
                   Harnessing the power of Unity and Unreal Engine to design

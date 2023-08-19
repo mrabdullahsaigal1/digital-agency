@@ -7,11 +7,11 @@ import FeedbackStyleTwo from '@/components/Common/FeedbackStyleTwo';
 import FeedbackStyleThree from '@/components/Common/FeedbackStyleThree';
 import FeedbackStyleFour from '@/components/Common/FeedbackStyleFour';
 import FeedbackStyleFive from '@/components/Common/FeedbackStyleFive';
- 
+import NavbarStyleFive from "@/components/_App/NavbarStyleFive";
 const FeedbackPage = () => {
     return (
         <>
-            <Navbar />
+            <NavbarStyleFive/>
 
             <PageBanner pageTitle="Feedback or Testimonials" />
 

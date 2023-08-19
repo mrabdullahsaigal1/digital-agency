@@ -244,7 +244,7 @@ const SingleFeatures = () => {
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Code /> React web development
+                                        <Icon.Code /> React Strategic Branding & Marketing
                                     </div>
                                 </div>
 
@@ -256,7 +256,7 @@ const SingleFeatures = () => {
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Code /> Laravel web development
+                                        <Icon.Code /> Laravel Strategic Branding & Marketing
                                     </div>
                                 </div>
 

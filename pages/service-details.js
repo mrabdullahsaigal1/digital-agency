@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "@/components/_App/Navbar";
+import NavbarStyleFive from "@/components/_App/NavbarStyleFive";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
 import {
@@ -13,7 +13,7 @@ import {
 const ServiceDetails = () => {
     return (
         <>
-            <Navbar />
+            <NavbarStyleFive />
 
             <PageBanner pageTitle="Services Style Five" />
  

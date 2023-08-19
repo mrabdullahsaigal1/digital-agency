@@ -55,7 +55,7 @@ const MainBanner = () => {
                                 <div className="container">
                                     <div className="portfolio-banner-content">
                                         <span className="sub-title">We are Agency</span>
-                                        <h1>Digital Marketing</h1>
+                                        <h1>SEO & Content</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                                         <a href="#" className="btn btn-secondary">Get Started</a>
                                     </div>

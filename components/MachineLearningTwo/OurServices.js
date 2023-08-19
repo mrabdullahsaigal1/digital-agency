@@ -21,7 +21,7 @@ const OurServices = () => {
                                 </div>
                                 <h3>
                                     <Link href="/service-details">
-                                        IT Professionals
+                                        Web & App Development
                                     </Link>
                                 </h3>
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
@@ -91,7 +91,7 @@ const OurServices = () => {
                                 </div>
                                 <h3>
                                     <Link href="/service-details">
-                                        Data Analysts
+                                        Data Analytics
                                     </Link>
                                 </h3>
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>

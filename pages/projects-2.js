@@ -3,11 +3,11 @@ import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner'; 
 import Link from 'next/link';
- 
+import NavbarStyleFive from "@/components/_App/NavbarStyleFive";
 const Projects2 = () => {
     return (
         <>
-            <Navbar />
+            <NavbarStyleFive />
 
             <PageBanner pageTitle="Projects Style Two" />
 

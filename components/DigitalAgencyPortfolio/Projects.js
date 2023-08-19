@@ -48,7 +48,7 @@ export default class Projects extends Component {
 
                   <div className="content">
                     <span>Development</span>
-                    <h3>Web Development</h3>
+                    <h3>Strategic Branding & Marketing</h3>
                   </div>
 
                   <Link href="/project-details" className="link-btn"></Link>
@@ -62,7 +62,7 @@ export default class Projects extends Component {
 
                   <div className="content">
                     <span>Marketing</span>
-                    <h3>Digital Marketing</h3>
+                    <h3>SEO & Content</h3>
                   </div>
 
                   <Link href="/project-details" className="link-btn"></Link>

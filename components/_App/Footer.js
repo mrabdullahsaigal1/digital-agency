@@ -24,10 +24,10 @@ const Footer = () => {
                 </div>
                 <p>
                   Keycode Syntax is a trusted provider of innovative
-                  Web/App/Game development solutions. With our team of skilled
+                  Web/App/Web & App Development solutions. With our team of skilled
                   professionals and a commitment to excellence, we deliver
                   tailored solutions that drive results and exceed expectations.
-                  Our expertise in Web/App/Game development, coupled with our
+                  Our expertise in Web/App/Web & App Development, coupled with our
                   dedication to quality and client satisfaction, makes us the
                   ideal partner for your digital needs. Contact us today to
                   discover how we can transform your vision into reality and

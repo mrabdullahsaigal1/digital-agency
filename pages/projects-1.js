@@ -159,7 +159,7 @@ const Projects1 = () => {
                                 <div className="works-content">
                                     <h3>
                                         <Link href="/project-details">
-                                            Digital Marketing
+                                            SEO & Content
                                         </Link>
                                     </h3>
                                     <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
