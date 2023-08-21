@@ -5,7 +5,7 @@ import PageBanner from "@/components/Common/PageBanner";
 import Services from "./services";
 
 const ServiceDetails = () => {
-  const item = [
+  const itemList = [
     "Lifetime Support",
     "Cutting-Edge Design",
     "Resolve Complexities With Us",
@@ -38,7 +38,7 @@ const ServiceDetails = () => {
       <Services
         heading="Web and App Development"
         firstPara="Experience the art of technology fused with innovation as we construct seamless integrations for web and app development. We strive to deliver an unparalleled experience, embracing the harmony of form and function. We provide exceptional solutions that go beyond the boundaries of the ordinary, with no exceptions."
-        items={item}
+        items={itemList}
         secondPara="We offer exclusive designs that blend aesthetics with efficiency, custom-tailored to fit your business' unique persona. Our mission is to make your web and app interfaces intuitive and engaging, keeping users captivated and ensuring they return time and again. In this digital age, visibility is paramount. Our web and app development strategies are firmly rooted in SEO-friendly practices. We meticulously embed SEO elements to ensure your platform ranks high on search engines, ultimately driving organic traffic and boosting your business reach."
         faq={faqData}
       />

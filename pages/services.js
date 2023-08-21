@@ -20,7 +20,7 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
                 <p>{firstPara}</p>
                 <ul>
                   {items?.map((item, index) => (
-                    <li key={index} >{item}</li>
+                    <li key={index}>{item}</li>
                   ))}
                 </ul>
                 {/* <p>Took a galley of type and scrambled it to make a type specimen book. survived not only five centuries, but also the leap into electronic remaining. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer when an unknown.</p> */}

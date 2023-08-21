@@ -5,7 +5,7 @@ import PageBanner from "@/components/Common/PageBanner";
 import Services from "./services";
 
 const ServiceDetails = () => {
-  const item = [
+  const itemList = [
     "Lifetime Support",
     "Exclusive Design",
     "Overcome Challenges with Us",
@@ -38,7 +38,7 @@ const ServiceDetails = () => {
       <Services
         heading="Game Development"
         firstPara="Embark on a journey where imagination meets technology. Our game development solutions are custom-tailored, bringing your unique ideas to life while providing immersive and thrilling gaming experiences. With a relentless pursuit for perfection, we push boundaries to create games that captivate and fascinate."
-        items={item}
+        items={itemList}
         secondPara="Game development comes with its own set of complex challenges. Whether it's optimizing performance or crafting intricate gaming algorithms, our experienced team is here to tackle these challenges. We turn obstacles into opportunities, ensuring your game is smooth, robust, and ready for action. As your game development partner, we commit to delivering top-notch services that drive your game's success. We focus on creating high-quality, engaging games that cater to your target audience's tastes and preferences. We believe your game deserves nothing less than the best."
         faq={faqData}
       />

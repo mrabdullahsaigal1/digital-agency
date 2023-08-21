@@ -5,7 +5,7 @@ import PageBanner from "@/components/Common/PageBanner";
 import Services from "./services";
 
 const ServiceDetails = () => {
-  const item = [
+  const itemList = [
     "Lifetime Support",
     "Exclusive Design",
     "Overcome Challenges with Us",
@@ -38,7 +38,7 @@ const ServiceDetails = () => {
       <Services
         heading="Strategic Branding & Marketing"
         firstPara="Discover the power of compelling storytelling combined with data-driven strategy. Our strategic branding and marketing solutions are customized to reflect your brand's unique narrative and positioning. We amplify your message, engage your audience, and ultimately drive growth and brand loyalty."
-        items={item}
+        items={itemList}
         secondPara="Your brand essence encapsulated through unique designs. We create distinctive design elements, from logos to marketing collateral, that mirror your brand identity and make you stand out in a crowded market. Every visual detail is crafted to resonate with your brand story and captivate your target audience. Branding and marketing are complex domains filled with challenges. Whether it's defining your brand positioning, understanding customer behavior, or navigating through digital marketing platforms, we're here to simplify the process. We turn challenges into strategic opportunities, steering your brand towards success."
         faq={faqData}
       />
