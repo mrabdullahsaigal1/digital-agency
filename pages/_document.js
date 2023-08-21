@@ -16,7 +16,7 @@ class MyDocument extends Document {
                     <link 
                         rel="icon" 
                         type="image/png" 
-                        href="/images/favicon.png"
+                        href="/public/images/logo.png"
                     ></link>
                     <link 
                         href="../public/fonts/ComicSansMS3.ttf" 
