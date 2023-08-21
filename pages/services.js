@@ -8,8 +8,9 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 
-const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
+const Services = ({ heading, firstPara, items ,secondPara,faq}) => {    
   return (
+
     <>
       <div className="services-details-area ptb-80">
         <div className="container">
@@ -58,12 +59,12 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
                     <AccordionItem uuid="a">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                          <span>{faq.question1}</span>
+                          <span>{faq?.question1}</span>
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
                         <p>
-                        {faq.answer1}
+                        {faq?.answer1}
                         </p>
                       </AccordionItemPanel>
                     </AccordionItem>
@@ -71,12 +72,12 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
                     <AccordionItem uuid="b">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                        <span>{faq.question2}</span>
+                        <span>{faq?.question2}</span>
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
                         <p>
-                        {faq.answer2}
+                        {faq?.answer2}
                         </p>
                       </AccordionItemPanel>
                     </AccordionItem>
@@ -84,12 +85,12 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
                     <AccordionItem uuid="c">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                        <span>{faq.question3}</span>
+                        <span>{faq?.question3}</span>
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
                         <p>
-                        {faq.answer3}
+                        {faq?.answer3}
                         </p>
                       </AccordionItemPanel>
                     </AccordionItem>
