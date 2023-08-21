@@ -19,7 +19,7 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
                 <h3>{heading}</h3>
                 <p>{firstPara}</p>
                 <ul>
-                  {items.map((item, index) => (
+                  {items?.map((item, index) => (
                     <li key={index} >{item}</li>
                   ))}
                 </ul>
