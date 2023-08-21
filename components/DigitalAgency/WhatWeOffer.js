@@ -56,14 +56,14 @@ const WhatWeOffer = () => {
                 </div>
 
                 <h3>
-                  <Link href="/service-details">Web & App Development</Link>
+                  <Link href="/service-details-two">Game Development</Link>
                 </h3>
                 <p>
                   Harnessing the power of Unity and Unreal Engine to design
                   immersive gaming experiences.
                 </p>
 
-                <Link href="/service-details" className="learn-more-btn">
+                <Link href="/service-details-two" className="learn-more-btn">
                   <Icon.PlusCircle /> Learn More
                 </Link>
               </div>
@@ -80,7 +80,7 @@ const WhatWeOffer = () => {
                 </div>
 
                 <h3>
-                  <Link href="/service-details">
+                  <Link href="/service-details-three">
                     Strategic Branding & Marketing
                   </Link>
                 </h3>
@@ -89,7 +89,7 @@ const WhatWeOffer = () => {
                   for data-driven marketing strategies.
                 </p>
 
-                <Link href="/service-details" className="learn-more-btn">
+                <Link href="/service-details-three" className="learn-more-btn">
                   <Icon.PlusCircle /> Learn More
                 </Link>
               </div>
