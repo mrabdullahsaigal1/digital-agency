@@ -11,26 +11,20 @@ const ServiceDetails = () => {
     "Overcome Challenges with Us",
     "Providing Superior Services",
   ];
-  const faqData = [
-    {
-      question:
-        "How do your game development services differentiate from others?",
-      answer:
-        "Our game development services are distinguished by our unique blend of creativity, technological expertise, and deep understanding of the gaming industry. We create immersive gaming experiences that reflect your unique vision, while our exclusive designs and strong technical support ensure a seamless, engaging experience for players. Additionally, our commitment to SEO-friendly practices helps your game gain increased visibility in a competitive marketplace.",
-    },
-    {
-      question:
-        "How do you ensure that my game will be visible and reach the intended audience?",
-      answer:
-        "Visibility is a key aspect of our development strategy. We employ SEO-friendly practices and app store optimization techniques to increase your game's discoverability. This includes choosing the right keywords, creating engaging game descriptions, and optimizing images and video trailers. Additionally, we aim to create games that not only attract but also retain players through engaging gameplay, compelling design, and constant updates and improvements.",
-    },
-    {
-      question: "Can you assist with complex game development issues?",
-      answer:
-        "Certainly! Our team is well-versed in all aspects of game development, from coding complex game mechanics to designing intricate in-game systems. No challenge is too big or too small for us. We leverage our vast experience and technical knowledge to solve any issues that arise, ensuring your game delivers a smooth and captivating experience to all players.",
-    },
+  const faqData = {
+    question1:
+      "How do your game development services differentiate from others?",
+    answer1:
+      "Our game development services are distinguished by our unique blend of creativity, technological expertise, and deep understanding of the gaming industry. We create immersive gaming experiences that reflect your unique vision, while our exclusive designs and strong technical support ensure a seamless, engaging experience for players. Additionally, our commitment to SEO-friendly practices helps your game gain increased visibility in a competitive marketplace.",
+    question2:
+      "How do you ensure that my game will be visible and reach the intended audience?",
+    answer2:
+      "Visibility is a key aspect of our development strategy. We employ SEO-friendly practices and app store optimization techniques to increase your game's discoverability. This includes choosing the right keywords, creating engaging game descriptions, and optimizing images and video trailers. Additionally, we aim to create games that not only attract but also retain players through engaging gameplay, compelling design, and constant updates and improvements.",
+    question3: "Can you assist with complex game development issues?",
+    answer3:
+      "Certainly! Our team is well-versed in all aspects of game development, from coding complex game mechanics to designing intricate in-game systems. No challenge is too big or too small for us. We leverage our vast experience and technical knowledge to solve any issues that arise, ensuring your game delivers a smooth and captivating experience to all players.",
     // Add more question-answer pairs as needed
-  ];
+  };
   return (
     <>
       <NavbarStyleFive />

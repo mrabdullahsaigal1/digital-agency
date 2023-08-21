@@ -11,26 +11,22 @@ const ServiceDetails = () => {
     "Overcome Challenges with Us",
     "Providing Superior Services",
   ];
-  const faqData = [
-    {
-      question:
+  const faqData = {
+      question1:
         "How do your strategic branding and marketing services differ from others?",
-      answer:
+      answer1:
         "Our strategic branding and marketing services differentiate by combining compelling storytelling with data-driven strategy. We customize our approach to reflect your brand's unique identity and market position. In addition, we provide ongoing support to ensure your brand stays relevant and competitive, adapting to market trends and customer preferences. Our exclusive designs encapsulate your brand message, while our SEO-optimized strategies increase your brand visibility and engagement.",
-    },
-    {
-      question:
+
+      question2:
         "How do you ensure my brand's visibility in a competitive marketplace?",
-      answer:
+      answer2:
         "Visibility is an integral part of our branding and marketing strategies. We use SEO-friendly practices to enhance your brand's online presence. This includes optimizing your website and digital content for search engines, using appropriate keywords, meta tags, and user-friendly designs. In addition, we devise comprehensive marketing campaigns to make sure your brand message reaches the right audience, boosting engagement and conversion rates.",
-    },
-    {
-      question: "Can you help resolve the complexities involved in strategic branding and marketing?",
-      answer:
+
+      question3: "Can you help resolve the complexities involved in strategic branding and marketing?",
+      answer3:
         "Absolutely! We understand the challenges and complexities involved in branding and marketing. Our team is adept at defining brand positioning, interpreting consumer behavior, and navigating various digital marketing platforms. We turn these challenges into strategic opportunities, providing solutions that help your brand succeed in the competitive marketplace.",
-    },
+    }
     // Add more question-answer pairs as needed
-  ];
   return (
     <>
       <NavbarStyleFive />

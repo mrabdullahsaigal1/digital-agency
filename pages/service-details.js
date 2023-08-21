@@ -12,25 +12,21 @@ const ServiceDetails = () => {
     "Delivering Superior Services",
     "SEO-Friendly Approach",
   ];
-  const faqData = [
-    {
-      question:
-        "What differentiates your web and app development services from others?",
-      answer:
-        "Our web and app development services stand out for their dedication to innovation, user-centric design, and business-specific customization. We combine state-of-the-art technology with our vast industry experience to create solutions that are not only visually appealing but also functional and efficient. We also offer ongoing lifetime support to ensure that your digital platforms remain up-to-date and continue to deliver an optimal user experience.",
-    },
-    {
-      question: "How do you ensure my website or app will be SEO-friendly?",
-      answer:
-        "Search engine optimization is deeply ingrained in our development process. We follow the best practices recommended by major search engines such as Google, including the use of meta-tags, appropriate keyword density, mobile optimization, and fast loading speeds. In addition, we ensure that your website or app has a user-friendly layout and engaging content which search engines value when ranking websites.",
-    },
-    {
-      question: "Can you help us with complex web and app development issues?",
-      answer:
-        "Absolutely! Our team thrives on resolving complex challenges. We have extensive experience and skills in various aspects of web and app development, including complex programming, integration issues, and crafting bespoke solutions. No matter what challenges you're facing, we're confident that we can turn these obstacles into opportunities for enhancing your digital presence.",
-    },
-    // Add more question-answer pairs as needed
-  ];
+  const faqData = {
+    question1:
+      "What differentiates your web and app development services from others?",
+    answer1:
+      "Our web and app development services stand out for their dedication to innovation, user-centric design, and business-specific customization. We combine state-of-the-art technology with our vast industry experience to create solutions that are not only visually appealing but also functional and efficient. We also offer ongoing lifetime support to ensure that your digital platforms remain up-to-date and continue to deliver an optimal user experience.",
+    question2: "How do you ensure my website or app will be SEO-friendly?",
+    answer2:
+      "Search engine optimization is deeply ingrained in our development process. We follow the best practices recommended by major search engines such as Google, including the use of meta-tags, appropriate keyword density, mobile optimization, and fast loading speeds. In addition, we ensure that your website or app has a user-friendly layout and engaging content which search engines value when ranking websites.",
+
+    question3: "Can you help us with complex web and app development issues?",
+    answer3:
+      "Absolutely! Our team thrives on resolving complex challenges. We have extensive experience and skills in various aspects of web and app development, including complex programming, integration issues, and crafting bespoke solutions. No matter what challenges you're facing, we're confident that we can turn these obstacles into opportunities for enhancing your digital presence.",
+  };
+  // Add more question-answer pairs as needed
+
   return (
     <>
       <NavbarStyleFive />

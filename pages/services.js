@@ -58,12 +58,12 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
                     <AccordionItem uuid="a">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                          <span>{faq[0].question}</span>
+                          <span>{faq.question1}</span>
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
                         <p>
-                        {faq[0].answer}
+                        {faq.answer1}
                         </p>
                       </AccordionItemPanel>
                     </AccordionItem>
@@ -71,12 +71,12 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
                     <AccordionItem uuid="b">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                        <span>{faq[1].question}</span>
+                        <span>{faq.question2}</span>
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
                         <p>
-                        {faq[1].answer}
+                        {faq.answer2}
                         </p>
                       </AccordionItemPanel>
                     </AccordionItem>
@@ -84,12 +84,12 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
                     <AccordionItem uuid="c">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                        <span>{faq[2].question}</span>
+                        <span>{faq.question3}</span>
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
                         <p>
-                        {faq[2].answer}
+                        {faq.answer3}
                         </p>
                       </AccordionItemPanel>
                     </AccordionItem>
