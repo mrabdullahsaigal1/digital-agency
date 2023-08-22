@@ -21,7 +21,7 @@ const WhatWeOffer = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-4 col-sm-6 col-md-6">
+            <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-landscape"></i>
@@ -45,7 +45,7 @@ const WhatWeOffer = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
+            <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-bar-chart-alt"></i>
@@ -69,7 +69,7 @@ const WhatWeOffer = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
+            <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-devices"></i>
@@ -95,7 +95,7 @@ const WhatWeOffer = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
+            <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-chalkboard"></i>
@@ -106,19 +106,19 @@ const WhatWeOffer = () => {
                 </div>
 
                 <h3>
-                  <Link href="/service-details">E-Commerce Solutions</Link>
+                  <Link href="/service-details-four">E-Commerce Solutions</Link>
                 </h3>
                 <p>
                   Implementing WooCommerce, Shopify, eBay, Amazon and Etsy
                   frameworks for seamless online shopping experiences.
                 </p>
 
-                <Link href="/service-details" className="learn-more-btn">
+                <Link href="/service-details-four" className="learn-more-btn">
                   <Icon.PlusCircle /> Learn More
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-md-6">
+            <div className="col-lg-6 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-bar-chart-alt"></i>
@@ -129,19 +129,19 @@ const WhatWeOffer = () => {
                 </div>
 
                 <h3>
-                  <Link href="/service-details">Data Analytics</Link>
+                  <Link href="/service-details-five">SEO & Content</Link>
                 </h3>
                 <p>
                   Harnessing the power of Unity and Unreal Engine to design
                   immersive gaming experiences.
                 </p>
 
-                <Link href="/service-details" className="learn-more-btn">
+                <Link href="/service-details-five" className="learn-more-btn">
                   <Icon.PlusCircle /> Learn More
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-md-6">
+            <div className="col-lg-6 col-sm-6 col-md-6">
               <div className="solutions-box">
                 <div className="icon">
                   <i className="bx bx-bar-chart-alt"></i>
@@ -152,14 +152,14 @@ const WhatWeOffer = () => {
                 </div>
 
                 <h3>
-                  <Link href="/service-details">E-Commerce Solutions</Link>
+                  <Link href="/service-details-six">Data Analytics</Link>
                 </h3>
                 <p>
                   Harnessing the power of Unity and Unreal Engine to design
                   immersive gaming experiences.
                 </p>
 
-                <Link href="/service-details" className="learn-more-btn">
+                <Link href="/service-details-six" className="learn-more-btn">
                   <Icon.PlusCircle /> Learn More
                 </Link>
               </div>
