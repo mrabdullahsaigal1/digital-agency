@@ -10,7 +10,7 @@ const Services2 = () => {
             <NavbarStyleFive />
 
 
-            <PageBanner pageTitle="Services Style Two" />
+            <PageBanner pageTitle="Services We Offer" />
 
             <div className="ml-services-area ptb-80">
                 <div className="container">
@@ -25,7 +25,7 @@ const Services2 = () => {
                                         Web & App Development
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                <p>Utilizing cutting-edge technologies like React, Flutter and Node.js to create engaging digital platforms.</p>
                             </div>
                         </div>
 
@@ -35,11 +35,11 @@ const Services2 = () => {
                                     <img src="/images/services-image/service-image2.png" alt="image" />
                                 </div>
                                 <h3>
-                                    <Link href="/service-details">
-                                        Software Engineers
+                                    <Link href="/service-details-two">
+                                    Game Development
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                <p>Harnessing the power of Unity and Unreal Engine to design immersive gaming experiences.</p>
                             </div>
                         </div>
 
@@ -49,11 +49,11 @@ const Services2 = () => {
                                     <img src="/images/services-image/service-image3.png" alt="image" />
                                 </div>
                                 <h3>
-                                    <Link href="/service-details">
-                                        Health & Manufacturing
+                                    <Link href="/service-details-three">
+                                    Strategic Branding & Marketing
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                <p>Leveraging advanced tools like Google Analytics and SEMrush for data-driven marketing strategies.</p>
                             </div>
                         </div>
 
@@ -63,11 +63,11 @@ const Services2 = () => {
                                     <img src="/images/services-image/service-image4.png" alt="image" />
                                 </div>
                                 <h3>
-                                    <Link href="/service-details">
-                                        Security & Surveillance
+                                    <Link href="/service-details-four">
+                                    E-Commerce Solutions
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                <p>Implementing WooCommerce, Shopify, eBay, Amazon and Etsy frameworks for seamless online shopping experiences.</p>
                             </div>
                         </div>
 
@@ -77,11 +77,11 @@ const Services2 = () => {
                                     <img src="/images/services-image/service-image5.png" alt="image" />
                                 </div>
                                 <h3>
-                                    <Link href="/service-details">
-                                        Automatic Optimization
+                                    <Link href="/service-details-five">
+                                    SEO & Content
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                <p>Harnessing the power of Unity and Unreal Engine to design immersive gaming experiences.</p>
                             </div>
                         </div>
 
@@ -91,11 +91,11 @@ const Services2 = () => {
                                     <img src="/images/services-image/service-image6.png" alt="image" />
                                 </div>
                                 <h3>
-                                    <Link href="/service-details">
+                                    <Link href="/service-details-six">
                                         Data Analytics
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                <p>Harnessing the power of Unity and Unreal Engine to design immersive gaming experiences.</p>
                             </div>
                         </div>
                     </div>

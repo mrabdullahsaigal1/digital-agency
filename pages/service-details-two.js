@@ -28,7 +28,7 @@ const ServiceDetails = () => {
   return (
     <>
       <NavbarStyleFive />
-      <PageBanner pageTitle="Game Developmentt" />
+      <PageBanner pageTitle="Game Development" />
       <Services
         heading="Game Development"
         firstPara="Embark on a journey where imagination meets technology. Our game development solutions are custom-tailored, bringing your unique ideas to life while providing immersive and thrilling gaming experiences. With a relentless pursuit for perfection, we push boundaries to create games that captivate and fascinate."

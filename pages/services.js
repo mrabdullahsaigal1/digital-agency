@@ -8,9 +8,8 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 
-const Services = ({ heading, firstPara, items ,secondPara,faq}) => {    
+const Services = ({ heading, firstPara, items, secondPara, faq }) => {
   return (
-
     <>
       <div className="services-details-area ptb-80">
         <div className="container">
@@ -19,11 +18,16 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
               <div className="services-details-desc">
                 <h3>{heading}</h3>
                 <p>{firstPara}</p>
-                <ul>
-                  {items?.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
+                <p>
+                  <ul>
+                    {items?.map((item, index) => (
+                      <li style={{ fontWeight: "normal" }} key={index}>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </p>
+
                 {/* <p>Took a galley of type and scrambled it to make a type specimen book. survived not only five centuries, but also the leap into electronic remaining. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer when an unknown.</p> */}
               </div>
             </div>
@@ -50,9 +54,7 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
 
             <div className="col-lg-6 services-details">
               <div className="services-details-desc">
-                <p>
-                  {secondPara}
-                </p>
+                <p>{secondPara}</p>
 
                 <div className="services-details-accordion">
                   <Accordion preExpanded={["a"]}>
@@ -63,35 +65,29 @@ const Services = ({ heading, firstPara, items ,secondPara,faq}) => {
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
-                        <p>
-                        {faq?.answer1}
-                        </p>
+                        <p>{faq?.answer1}</p>
                       </AccordionItemPanel>
                     </AccordionItem>
 
                     <AccordionItem uuid="b">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                        <span>{faq?.question2}</span>
+                          <span>{faq?.question2}</span>
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
-                        <p>
-                        {faq?.answer2}
-                        </p>
+                        <p>{faq?.answer2}</p>
                       </AccordionItemPanel>
                     </AccordionItem>
 
                     <AccordionItem uuid="c">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                        <span>{faq?.question3}</span>
+                          <span>{faq?.question3}</span>
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
-                        <p>
-                        {faq?.answer3}
-                        </p>
+                        <p>{faq?.answer3}</p>
                       </AccordionItemPanel>
                     </AccordionItem>
                   </Accordion>

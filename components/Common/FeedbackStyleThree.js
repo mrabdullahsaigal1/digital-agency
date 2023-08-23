@@ -75,7 +75,7 @@ const FeedbackStyleThree = () => {
                     <Icon.Star />
                     <Icon.Star />
                     <Icon.Star />
-                    <Icon.Star />
+            
                   </div>
 
                   <h3>Steven Smith</h3>
@@ -102,8 +102,7 @@ const FeedbackStyleThree = () => {
                     <Icon.Star />
                     <Icon.Star />
                     <Icon.Star />
-                    <Icon.Star />
-                    <Icon.Star />
+                   
                   </div>
 
                   <h3>James Eva</h3>

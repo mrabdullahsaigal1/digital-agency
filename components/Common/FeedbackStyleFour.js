@@ -70,7 +70,6 @@ const FeedbackStyleFour = () => {
                   <Icon.Star />
                   <Icon.Star />
                   <Icon.Star />
-                  <Icon.Star />
                 </div>
               </div>
             </SwiperSlide>

@@ -39,12 +39,12 @@ const OurServices = () => {
 
                                 <div className="content">
                                     <h3>
-                                        <Link href="/service-details">
-                                            Software Engineers
+                                        <Link href="/service-details-two">
+                                          Game Development
                                         </Link>
                                     </h3>
 
-                                    <Link href="/service-details" className="read-more-btn">
+                                    <Link href="/service-details-two" className="read-more-btn">
                                         Read More <Icon.PlusCircle />
                                     </Link>
                                 </div>
@@ -57,12 +57,12 @@ const OurServices = () => {
 
                                 <div className="content">
                                     <h3>
-                                        <Link href="/service-details">
+                                        <Link href="/service-details-three">
                                             Strategic Branding & Marketing
                                         </Link>
                                     </h3>
 
-                                    <Link href="/service-details" className="read-more-btn">
+                                    <Link href="/service-details-three" className="read-more-btn">
                                         Read More <Icon.PlusCircle />
                                     </Link>
                                 </div>
@@ -75,12 +75,12 @@ const OurServices = () => {
 
                                 <div className="content">
                                     <h3>
-                                        <Link href="/service-details">
+                                        <Link href="/service-details-four">
                                             E-Commerce Solutions
                                         </Link>
                                     </h3>
 
-                                    <Link href="/service-details" className="read-more-btn">
+                                    <Link href="/service-details-four" className="read-more-btn">
                                         Read More <Icon.PlusCircle />
                                     </Link>
                                 </div>
@@ -93,12 +93,12 @@ const OurServices = () => {
 
                                 <div className="content">
                                     <h3>
-                                        <Link href="/service-details">
+                                        <Link href="/service-details-five">
                                             SEO & Content
                                         </Link>
                                     </h3>
 
-                                    <Link href="/service-details" className="read-more-btn">
+                                    <Link href="/service-details-five" className="read-more-btn">
                                         Read More <Icon.PlusCircle />
                                     </Link>
                                 </div>
@@ -111,12 +111,12 @@ const OurServices = () => {
 
                                 <div className="content">
                                     <h3>
-                                        <Link href="/service-details">
+                                        <Link href="/service-details-six">
                                             Data Analytics
                                         </Link>
                                     </h3>
 
-                                    <Link href="/service-details" className="read-more-btn">
+                                    <Link href="/service-details-six" className="read-more-btn">
                                         Read More <Icon.PlusCircle />
                                     </Link>
                                 </div>
