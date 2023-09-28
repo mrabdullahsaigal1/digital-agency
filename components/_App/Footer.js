@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="/images/logo.png"
+                      src="/images/logo.svg"
                       alt="logo"
                       width="100"
                       height="100"
@@ -23,7 +23,7 @@ const Footer = () => {
                   </Link>
                 </div>
                 <p>
-                  Keycode Syntax is a trusted provider of innovative
+                  Gensols is a trusted provider of innovative
                   Web/App/Web & App Development solutions. With our team of skilled
                   professionals and a commitment to excellence, we deliver
                   tailored solutions that drive results and exceed expectations.
@@ -136,9 +136,9 @@ const Footer = () => {
             <div className="col-lg-12 col-md-12">
               <div className="copyright-area">
                 <p>
-                  Copyright &copy; {currentYear} Keycode Syntax. All rights reserved by {" "}
-                  <a href="https://Keycode Syntax.com/" target="_blank">
-                  Keycode Syntax
+                  Copyright &copy; {currentYear} Gensols. All rights reserved by {" "}
+                  <a href="https://Gensols.com/" target="_blank">
+                  Gensols
                   </a>
                 </p>
               </div>

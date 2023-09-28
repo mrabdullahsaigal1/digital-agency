@@ -46,7 +46,7 @@ const NavbarStyleFive = () => {
           <div className="container-fluid">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/digital-agency" className="navbar-brand">
-                <img src="/images/logo.png" alt="logo"  width="100" height="100"/>
+                <img src="/images/logo.svg" alt="logo"  width="100" height="100"/>
               </Link>
 
               <button

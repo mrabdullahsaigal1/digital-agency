@@ -46,7 +46,7 @@ const NavbarStyleThree = () => {
           <div className="container-fluid">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/it-startup" className="navbar-brand">
-                <img src="/images/logo.png" alt="logo" />
+                <img src="/images/logo.svg" alt="logo" />
               </Link>
 
               <button

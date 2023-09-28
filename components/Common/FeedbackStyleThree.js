@@ -31,7 +31,7 @@ const FeedbackStyleThree = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <p>
-                  Partnering with Keycode Syntax has been a game-changer for our
+                  Partnering with Gensols has been a game-changer for our
                   online presence. Their creative approach to web design,
                   combined with innovative SEO strategies, has significantly
                   boosted our site's traffic and conversions. The team's
@@ -60,7 +60,7 @@ const FeedbackStyleThree = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <p>
-                  Keycode Syntax has taken our SEO & Content efforts to new
+                  Gensols has taken our SEO & Content efforts to new
                   heights. Their data-driven approach has provided us with
                   valuable insights, leading to more effective campaigns and
                   increased ROI. They have truly become an extension of our own
@@ -87,7 +87,7 @@ const FeedbackStyleThree = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <p>
-                  Working with Keycode Syntax on our e-commerce platform has
+                  Working with Gensols on our e-commerce platform has
                   been nothing short of extraordinary. The user-friendly design
                   and seamless functionality they created have resulted in a
                   significant uplift in sales. Their exceptional customer

@@ -10,7 +10,7 @@ const DigitalAgencyFunFacts = () => {
             <h2>We Completed 130+ Projects Yearly Successfully & Counting</h2>
             <div className="bar"></div>
             <p>
-              At Keycode Syntax, we empower your digital evolution with our
+              At Gensols, we empower your digital evolution with our
               bespoke, innovative solutions. By harnessing the latest technology
               and our industry expertise, we create strategic, user-centric
               digital experiences that not only align with your business goals

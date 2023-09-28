@@ -19,10 +19,10 @@ const AboutUsContent = () => {
             <div className="col-lg-6 col-md-12">
               <div className="agency-about-content">
                 <span className="sub-title">About Us</span>
-                <h2>About Keycode Syntax Elevating Your Digital Journe</h2>
+                <h2>About Gensols Elevating Your Digital Journe</h2>
                 <div className="bar"></div>
                 <p>
-                  Keycode Syntax is a forward-thinking digital solutions company
+                  Gensols is a forward-thinking digital solutions company
                   that marries creativity, technology, and data to craft
                   compelling, high-performance business solutions. Since our
                   establishment, we have dedicated ourselves to drive innovation

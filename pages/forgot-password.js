@@ -16,7 +16,7 @@ const ForgotPassword = () => {
                     <div className="auth-form">
                         <div className="auth-head">
                             <Link href="/it-startup">
-                                <img src="/images/logo.png" />
+                                <img src="/images/logo.svg" />
                             </Link>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>

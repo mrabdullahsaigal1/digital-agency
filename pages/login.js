@@ -17,7 +17,7 @@ const Login = () => {
                     <div className="auth-form">
                         <div className="auth-head">
                             <Link href="/it-startup">
-                                <img src="/images/logo.png" />
+                                <img src="/images/logo.svg" />
                             </Link>
                             <p>Don't have an account yet? <Link href="/sign-up">Sign Up</Link></p>
                         </div>
